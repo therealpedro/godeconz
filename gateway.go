@@ -219,7 +219,7 @@ func (g *Gateway) SubscribeOnEvents() error {
 		}
 	}()
 
-	return fmt.Errorf("not implemented")
+	return nil
 }
 
 // Stops the current event subscription to the deconz server
